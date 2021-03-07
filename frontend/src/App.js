@@ -1,6 +1,11 @@
 import React from 'react'
 
+import { Route } from 'react-router-dom'
+
+import { Header } from './components/header/header.component'
+import { Men } from './pages/men/men.component'
 
 export const App = () => <>
-  <h1>Welcome to adidas clone</h1>
+  <Header />
+  <Route exact path="/men" component={Men} />
 </>
