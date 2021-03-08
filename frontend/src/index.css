@@ -1,3 +1,18 @@
+:root {
+    /* COLORS */
+    --color-black: #000;
+    --color-white: #fff;
+
+    --color-dark-grey: #767677;
+    --color-light-grey: #ebedee;
+    
+}
+
+/* UTILITIES */
+.margin-left-small {
+    margin-left: 2rem;
+}
+
 *,
 *::after,
 *::before {

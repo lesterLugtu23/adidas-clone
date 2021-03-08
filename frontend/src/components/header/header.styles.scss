@@ -1,12 +1,12 @@
 .header {
-    border-bottom: 1px solid #ebedee;
+    border-bottom: 1px solid var(--color-light-grey);
     display: flex;
     flex-direction: column;
 }
 
 .header-top {
     align-self: flex-end;
-    background-color: #fff;
+    background-color: var(--color-white);
     font-size: 1.3rem;
     padding: 0 4rem;
     height: 3.2rem;
@@ -25,7 +25,7 @@
         text-transform: lowercase;
         text-decoration: none;
         cursor: pointer;
-        color: #000;
+        color: var(--color-black);
 
         &:first-child {
             padding-right: 3rem;
@@ -71,7 +71,7 @@
         text-transform: uppercase;
         text-decoration: none;
         cursor: pointer;
-        color: #000;
+        color: var(--color-black);
 
         &:nth-child(1),
         &:nth-child(2),
@@ -102,20 +102,20 @@
         border: none;
         color: var(--color-black);
         margin-right: -3.5rem;
-        background-color: #ebedee;
+        background-color: var(--color-light-grey);
         padding-left: 1rem;
         width: 100%;
 
         &:focus {
-            outline: 1px solid #767677;
+            outline: 1px solid var(--color-dark-grey);
         }
 
         &:hover {
-            outline: 1px solid #767677;
+            outline: 1px solid var(--color-dark-grey);
         }
 
         &::-webkit-input-placeholder {
-            color: #000;
+            color: var(--color-black);
         }
     }
 

@@ -1,0 +1,217 @@
+.section {
+   width: 100%;
+}
+
+.main-1 {
+    position: relative;
+
+    &__background-image {
+        width: 100%;
+        max-height: 100vh;
+        display: block;
+        object-fit: cover;
+    }
+
+    &__content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        padding: 6rem 1.5rem 4rem 1.5rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__logo {
+        margin: 1.2rem 0 1.2rem;
+        width: 41.666667%;
+
+        img {
+            display: block;
+            max-width: 60%;
+            max-height: 13rem;
+        }
+    }
+
+    &__title {
+        width: 41.666667%;
+        margin-bottom: 1rem;
+        color: var(--color-white);
+        font-family: "adineue PRO Bold", 'Times New Roman', Times, serif;
+
+        .heading-primary {
+            font-size: 3.6rem;
+            line-height: 3.2rem;
+            text-transform: uppercase;
+        }
+    }
+
+    &__summary {
+        width: 41.666667%;
+        color: #fff;
+        font-family: "AdihausDIN", Arial, sans-serif;
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+    }
+
+    &__cta {
+        width: 41.666667%;
+        margin: 1.5rem 0;
+    }
+}
+
+.btn {
+    font-family: inherit;
+    font-size: 1.3rem;
+    font-weight: bold;
+    line-height: 5rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 0 2.1rem;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &--white {
+        background-color: var(--color-white);
+        border-color: var(--color-white);
+        color: var(--color-black);
+        height: 5rem;
+    }
+}
+
+.arrow-right-long {
+    height: 2.4rem;
+    width: 2.4rem;
+
+    &--white {
+        fill: var(--color-white);
+    }
+
+    &--small {
+        height: 1.2rem;
+        width: 1.2rem;
+    }
+}
+
+.main-2 {
+    padding-bottom: 2.2rem;
+
+
+    &__title {
+        height: 9.2rem;
+        margin: 0 7rem;
+        // padding-bottom: 2.6rem;
+        // max-width: 114rem;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .heading-secondary {
+            font-size: 2.8rem;
+            line-height: 2.6rem;
+            text-transform: uppercase;
+        }
+    }
+
+    &__sub-nav {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-content: center;
+        list-style-type: none;
+        background-color: var(--color-light-grey);
+        margin: 0 9rem;
+    }
+
+    &__link {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 1.3rem;
+        line-height: 1.7rem;
+        margin: 0 2rem;
+
+        height: 5.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.main-3 {
+    width: 100%;
+    padding: 1.2rem;
+
+    display: flex;
+
+    &__tiles {
+        padding: 1.2rem;
+        height: 26.4rem;
+        width: 25%;
+    }
+
+    &__tiles-wrapper {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+    &__background-image {
+        display: block;
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+        background-color: var(--color-light-grey);
+        // display: block;
+    }
+
+    &__content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+
+        padding-left: 2.7rem;
+        padding-right: 2.7rem;
+        padding-bottom: 3.2rem;
+
+        // text-decoration: underline;
+        // text-decoration-color: var(--color-black);
+        // line-height: 1.7rem;
+        // padding: 2px;
+        // padding-bottom: 3px;
+        // white-space: unset;
+        // background-color: none !important;
+        // border: none;
+        // padding: 0;
+        // height: auto;
+    }
+
+    &__cta button {
+        font-family: inherit;
+        border: none;
+        font-weight: bold;
+        text-decoration: underline;
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        padding: 2px;
+        padding-bottom: 3px;
+        line-height: 1.7rem;
+        letter-spacing: 2px;
+        white-space: unset;
+    }
+
+
+}
