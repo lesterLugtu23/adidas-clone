@@ -4,6 +4,7 @@
     --color-white: #fff;
 
     --color-dark-grey: #767677;
+    --color-medium-grey: #d3d7da;
     --color-light-grey: #ebedee;
     
 }
@@ -11,6 +12,14 @@
 /* UTILITIES */
 .margin-left-small {
     margin-left: 2rem;
+}
+
+.margin-right-small {
+    margin-right: 1rem;
+}
+
+.margin-right-medium {
+    margin-right: 1.5rem;
 }
 
 *,
